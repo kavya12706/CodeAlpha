@@ -1,6 +1,6 @@
 # Task 1 - Basic Network Sniffer
 
-Built a Python script to capture live packets and show info like IPs, 
+To Build a Python script to capture live packets and show info like IPs, 
 protocol, and payload.
 
 ## Tools
@@ -8,20 +8,20 @@ protocol, and payload.
 - Kali Linux (VirtualBox)
 
 ## Steps
-1. Checked if scapy was installed using  
+1. Check if scapy was installed using  
 `python3 -c "import scapy; print(scapy.__version__)"`
 
 if not, install it using
 `sudo pip3 install scapy --break-system-packages`
 
-2. Wrote sniffer.py using 
+2. Write the python program - sniffer.py using 
 `nano sniffer.py`
 after typing python code, save using ctrl+O, enter, exit using ctrl+X
 
-3. Ran it with 
+3. Run it with 
 `sudo python3 sniffer.py`
 
-4. Generated traffic in another terminal using ping, curl, and browsing
+4. Generate traffic in another terminal using ping, curl, and browsing
 eg: `ping cylabacademy.org`
 
 ## Sample output
