@@ -11,17 +11,17 @@ protocol, and payload.
 1. Checked if scapy was installed using  
 `python3 -c "import scapy; print(scapy.__version__)"`
 
-2. if not, install it using
+if not, install it using
 `sudo pip3 install scapy --break-system-packages`
 
-3. Wrote sniffer.py using 
+2. Wrote sniffer.py using 
 `nano sniffer.py`
 after typing python code, save using ctrl+O, enter, exit using ctrl+X
 
-4. Ran it with 
+3. Ran it with 
 `sudo python3 sniffer.py`
 
-5. Generated traffic in another terminal using ping, curl, and browsing
+4. Generated traffic in another terminal using ping, curl, and browsing
 eg: `ping cylabacademy.org`
 
 ## Sample output
