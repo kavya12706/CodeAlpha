@@ -1,4 +1,4 @@
-# Task 2 - Network Intrusion Detection System
+# Task 4 - Network Intrusion Detection System
 
 Set up a network based IDS to detect suspicious traffic and generate alerts.
 
