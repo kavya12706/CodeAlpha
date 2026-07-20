@@ -21,7 +21,7 @@ interface (eth0) were correct
 ![Suricata running](suricata.png)
 
 ## Testing it actually works
-Normal browsing/pinging doesn't look suspicious, so nothing was triggering 
+Normal browsing or pinging doesn't look suspicious, so nothing was triggering 
 alerts by default. Used testmynids.org, which is a standard safe test site 
 made for testing IDS/IPS setups - it returns text that matches a default 
 detection rule.
@@ -48,7 +48,7 @@ sudo cat /var/log/suricata/eve.json | grep '"event_type":"alert"' | tail -1
 ![Alert in eve.json](eve_json.png)
 
 The JSON showed the exact rule that matched (`GPL ATTACK_RESPONSE id check 
-returned root`), and that the action was "allowed" - meaning Suricata only 
+returned root`), and that the action was "allowed" - that is, Suricata only 
 detected and logged it, didn't block it, since this is IDS not IPS.
 
 ## What I learned
