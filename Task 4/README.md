@@ -4,7 +4,7 @@ Set up a network based IDS to detect suspicious traffic and generate alerts.
 
 ## Tools
 - Suricata
-- Kali Linux (VirtualBox)
+- Kali Linux(VirtualBox)
 
 Went with Suricata over Snort since it logs alerts in JSON (eve.json), 
 which is more structured than plain text logs.
