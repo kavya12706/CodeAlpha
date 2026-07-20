@@ -1,6 +1,6 @@
 # Task 1 - Basic Network Sniffer
 
-To Build a Python script to capture live packets and show info like IPs, 
+Built a Python script to capture live packets and show info like IPs, 
 protocol, and payload.
 
 ## Tools
